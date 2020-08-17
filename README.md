@@ -6,7 +6,7 @@ Necassary files to run laravel project correctly with elastic beanstalk and ngin
 
 - Copy .ebextensions and .platform directories in your laravel's project root.
 - Open `.ebextensions/00_settings.config` and fill your elastic beanstalk's configurations, for instance database and URL.
-- Open `.platform/conf.d/my-vhost.conf` and update the domain names that you use (not needed in case you want to run your application on default URL that elastic beanstalk have created for you).
+- Open `.platform/nginx/conf.d/my-vhost.conf` and update the domain names that you use (not needed in case you want to run your application on default URL that elastic beanstalk have created for you).
 
 ## Optional but helpful
 
