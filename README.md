@@ -46,3 +46,12 @@ files:
           ln -s /var/app/current/storage/app/public /var/app/current/public/storage
       fi
 ```
+
+## Install some library that exsists in the OS packages
+
+```
+packages: 
+  yum:
+    epel-release: []
+    mod24_ssl: []
+```
