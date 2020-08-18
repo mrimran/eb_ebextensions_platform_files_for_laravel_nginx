@@ -47,7 +47,7 @@ files:
       fi
 ```
 
-## Install some library that exsists in the OS packages
+- Install some library that exsists in the OS packages
 
 ```
 packages: 
